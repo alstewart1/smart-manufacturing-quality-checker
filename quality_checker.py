@@ -34,3 +34,7 @@ print("Length:", length_result)
 print("Width:", width_result)
 print("Weight:", weight_result)
 print("Overall Result:", overall_result)
+if overall_result == "PASS":
+  print("This part meets all quality standards.")
+else:
+  print("This part should be inspected before use.")
